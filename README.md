@@ -1,5 +1,5 @@
 # Morris.WebSocketLogger
-![](./Images/small-logo.png)
+![Logo](./Images/small-logo.png)
 
 ***Morris.WebSocketLogger*** is an `ILogger` implementation that sends text to a WebSocket.
 

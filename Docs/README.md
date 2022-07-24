@@ -1,5 +1,6 @@
 # Morris.WebSocketLogger - documentation
-![](./../Images/small-logo.png)
+![Logo](./../Images/small-logo.png)
+
 
 ## Instructions
 

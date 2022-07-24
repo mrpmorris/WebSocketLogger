@@ -3,8 +3,7 @@
 	<PropertyGroup>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageIcon>small-logo.png</PackageIcon>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RootNamespace>Morris.</RootNamespace>
+		<RootNamespace>Morris.WebSocketLoger</RootNamespace>
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
@@ -14,21 +13,12 @@
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
-	<ItemGroup Condition="$(Configuration)=='Debug'">
-		<None Include="..\..\..\README.md">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
-	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
 	  <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+	  <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
 	  <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Reference Include="Microsoft.Extensions.Logging.Configuration">
-	    <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.7\Microsoft.Extensions.Logging.Configuration.dll</HintPath>
-	  </Reference>
-	</ItemGroup>
+
 
 </Project>
