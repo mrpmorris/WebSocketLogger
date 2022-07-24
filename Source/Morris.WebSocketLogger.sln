@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorials", "Tutorials", "{77CFFECD-DC50-4D2E-BE00-D52CAC884361}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{7302A8A5-30B2-413A-83DB-5CAF2CBF91CD}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Directory.Build.props = Lib\Directory.Build.props
+		Lib\MrPMorris.snk = Lib\MrPMorris.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21CFCD5A-A73B-4B66-AE95-DBA268691890}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{AFF6160A-AE61-463D-866F-EE5A78DA6A56}"
+	ProjectSection(SolutionItems) = preProject
+		..\Docs\README.md = ..\Docs\README.md
+		..\Docs\releases.md = ..\Docs\releases.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morris.WebSocketLogger", "Lib\Morris.WebSocketLogger\Morris.WebSocketLogger.csproj", "{D918E932-8381-45BB-8728-9A343D7A1F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-BasicExample", "01-BasicExample", "{2DECE123-A31B-470B-9D5C-10541A179D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsWatcher", "Tutorials\01-BasicExample\LogsWatcher\LogsWatcher.csproj", "{D4E98B90-7131-45B6-83EA-97AC31F6E824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerApplication", "Tutorials\01-BasicExample\ConsumerApplication\ConsumerApplication.csproj", "{B3564877-A4C3-4EDC-831A-17AF3D6D244D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D918E932-8381-45BB-8728-9A343D7A1F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D918E932-8381-45BB-8728-9A343D7A1F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D918E932-8381-45BB-8728-9A343D7A1F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D918E932-8381-45BB-8728-9A343D7A1F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E98B90-7131-45B6-83EA-97AC31F6E824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E98B90-7131-45B6-83EA-97AC31F6E824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E98B90-7131-45B6-83EA-97AC31F6E824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E98B90-7131-45B6-83EA-97AC31F6E824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3564877-A4C3-4EDC-831A-17AF3D6D244D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3564877-A4C3-4EDC-831A-17AF3D6D244D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3564877-A4C3-4EDC-831A-17AF3D6D244D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3564877-A4C3-4EDC-831A-17AF3D6D244D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3257C26E-E768-46E8-B0CC-62F3B6E19E4D}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D918E932-8381-45BB-8728-9A343D7A1F5E} = {7302A8A5-30B2-413A-83DB-5CAF2CBF91CD}
+		{2DECE123-A31B-470B-9D5C-10541A179D0E} = {77CFFECD-DC50-4D2E-BE00-D52CAC884361}
+		{D4E98B90-7131-45B6-83EA-97AC31F6E824} = {2DECE123-A31B-470B-9D5C-10541A179D0E}
+		{B3564877-A4C3-4EDC-831A-17AF3D6D244D} = {2DECE123-A31B-470B-9D5C-10541A179D0E}
+	EndGlobalSection
+EndGlobal
