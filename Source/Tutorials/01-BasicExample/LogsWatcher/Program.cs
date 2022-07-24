@@ -1,3 +1,4 @@
+using LogsWatcher;
 using System.Net.WebSockets;
 
 var builder = WebApplication.CreateBuilder(args);
